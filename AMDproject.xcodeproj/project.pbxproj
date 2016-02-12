@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6323677F1C6B119E009F490B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6323677E1C6B119E009F490B /* CoreLocation.framework */; };
+		632367811C6B1682009F490B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632367801C6B1682009F490B /* HomeViewController.swift */; };
+		6363E3241C6C72B3000257CA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6363E3231C6C72B3000257CA /* home.png */; };
+		63E4F4CC1C3A5AAB006887AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4CB1C3A5AAB006887AD /* AppDelegate.swift */; };
+		63E4F4CE1C3A5AAB006887AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4CD1C3A5AAB006887AD /* MainViewController.swift */; };
+		63E4F4D11C3A5AAB006887AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4F4CF1C3A5AAB006887AD /* Main.storyboard */; };
+		63E4F4D31C3A5AAB006887AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E4F4D21C3A5AAB006887AD /* Assets.xcassets */; };
+		63E4F4D61C3A5AAB006887AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4F4D41C3A5AAB006887AD /* LaunchScreen.storyboard */; };
+		63E4F4E11C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4E01C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift */; };
+		63E4F4EC1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4EB1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63E4F4DD1C3A5AAB006887AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E4F4C01C3A5AAB006887AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E4F4C71C3A5AAB006887AD;
+			remoteInfo = YamagutiHouseBeacon;
+		};
+		63E4F4E81C3A5AAB006887AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E4F4C01C3A5AAB006887AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E4F4C71C3A5AAB006887AD;
+			remoteInfo = YamagutiHouseBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6323677E1C6B119E009F490B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		632367801C6B1682009F490B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6363E3231C6C72B3000257CA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../home.png; sourceTree = "<group>"; };
+		63E4F4C81C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMDproject.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E4F4CB1C3A5AAB006887AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E4F4CD1C3A5AAB006887AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63E4F4D01C3A5AAB006887AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E4F4D21C3A5AAB006887AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E4F4D51C3A5AAB006887AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E4F4D71C3A5AAB006887AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E4F4DC1C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDproject.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E4F4E01C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamagutiHouseBeaconTests.swift; sourceTree = "<group>"; };
+		63E4F4E21C3A5AAB006887AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E4F4E71C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDproject.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E4F4EB1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamagutiHouseBeaconUITests.swift; sourceTree = "<group>"; };
+		63E4F4ED1C3A5AAB006887AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E4F4C51C3A5AAB006887AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6323677F1C6B119E009F490B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E4F4D91C3A5AAB006887AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E4F4E41C3A5AAB006887AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E4F4BF1C3A5AAB006887AD = {
+			isa = PBXGroup;
+			children = (
+				6323677E1C6B119E009F490B /* CoreLocation.framework */,
+				63E4F4CA1C3A5AAB006887AD /* AMDprojec */,
+				63E4F4DF1C3A5AAB006887AD /* AMDprojecTest */,
+				63E4F4EA1C3A5AAB006887AD /* AMDprojectUITests */,
+				63E4F4C91C3A5AAB006887AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E4F4C91C3A5AAB006887AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E4F4C81C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.app */,
+				63E4F4DC1C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */,
+				63E4F4E71C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E4F4CA1C3A5AAB006887AD /* AMDprojec */ = {
+			isa = PBXGroup;
+			children = (
+				63E4F4CB1C3A5AAB006887AD /* AppDelegate.swift */,
+				63E4F4CD1C3A5AAB006887AD /* MainViewController.swift */,
+				63E4F4CF1C3A5AAB006887AD /* Main.storyboard */,
+				632367801C6B1682009F490B /* HomeViewController.swift */,
+				63E4F4D21C3A5AAB006887AD /* Assets.xcassets */,
+				63E4F4D41C3A5AAB006887AD /* LaunchScreen.storyboard */,
+				63E4F4D71C3A5AAB006887AD /* Info.plist */,
+				6363E3231C6C72B3000257CA /* home.png */,
+			);
+			name = AMDprojec;
+			path = YamagutiHouseBeacon;
+			sourceTree = "<group>";
+		};
+		63E4F4DF1C3A5AAB006887AD /* AMDprojecTest */ = {
+			isa = PBXGroup;
+			children = (
+				63E4F4E01C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift */,
+				63E4F4E21C3A5AAB006887AD /* Info.plist */,
+			);
+			name = AMDprojecTest;
+			path = YamagutiHouseBeaconTests;
+			sourceTree = "<group>";
+		};
+		63E4F4EA1C3A5AAB006887AD /* AMDprojectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63E4F4EB1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift */,
+				63E4F4ED1C3A5AAB006887AD /* Info.plist */,
+			);
+			name = AMDprojectUITests;
+			path = YamagutiHouseBeaconUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E4F4C71C3A5AAB006887AD /* AMDproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E4F4F01C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDproject" */;
+			buildPhases = (
+				63E4F4C41C3A5AAB006887AD /* Sources */,
+				63E4F4C51C3A5AAB006887AD /* Frameworks */,
+				63E4F4C61C3A5AAB006887AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMDproject;
+			productName = YamagutiHouseBeacon;
+			productReference = 63E4F4C81C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63E4F4DB1C3A5AAB006887AD /* AMDprojectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E4F4F31C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectTests" */;
+			buildPhases = (
+				63E4F4D81C3A5AAB006887AD /* Sources */,
+				63E4F4D91C3A5AAB006887AD /* Frameworks */,
+				63E4F4DA1C3A5AAB006887AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E4F4DE1C3A5AAB006887AD /* PBXTargetDependency */,
+			);
+			name = AMDprojectTests;
+			productName = YamagutiHouseBeaconTests;
+			productReference = 63E4F4DC1C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63E4F4E61C3A5AAB006887AD /* AMDprojectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E4F4F61C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectUITests" */;
+			buildPhases = (
+				63E4F4E31C3A5AAB006887AD /* Sources */,
+				63E4F4E41C3A5AAB006887AD /* Frameworks */,
+				63E4F4E51C3A5AAB006887AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E4F4E91C3A5AAB006887AD /* PBXTargetDependency */,
+			);
+			name = AMDprojectUITests;
+			productName = YamagutiHouseBeaconUITests;
+			productReference = 63E4F4E71C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E4F4C01C3A5AAB006887AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = nwatabou;
+				TargetAttributes = {
+					63E4F4C71C3A5AAB006887AD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GXEN49NFED;
+					};
+					63E4F4DB1C3A5AAB006887AD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GXEN49NFED;
+						TestTargetID = 63E4F4C71C3A5AAB006887AD;
+					};
+					63E4F4E61C3A5AAB006887AD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = GXEN49NFED;
+						TestTargetID = 63E4F4C71C3A5AAB006887AD;
+					};
+				};
+			};
+			buildConfigurationList = 63E4F4C31C3A5AAB006887AD /* Build configuration list for PBXProject "AMDproject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E4F4BF1C3A5AAB006887AD;
+			productRefGroup = 63E4F4C91C3A5AAB006887AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E4F4C71C3A5AAB006887AD /* AMDproject */,
+				63E4F4DB1C3A5AAB006887AD /* AMDprojectTests */,
+				63E4F4E61C3A5AAB006887AD /* AMDprojectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E4F4C61C3A5AAB006887AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6363E3241C6C72B3000257CA /* home.png in Resources */,
+				63E4F4D61C3A5AAB006887AD /* LaunchScreen.storyboard in Resources */,
+				63E4F4D31C3A5AAB006887AD /* Assets.xcassets in Resources */,
+				63E4F4D11C3A5AAB006887AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E4F4DA1C3A5AAB006887AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E4F4E51C3A5AAB006887AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E4F4C41C3A5AAB006887AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E4F4CE1C3A5AAB006887AD /* MainViewController.swift in Sources */,
+				63E4F4CC1C3A5AAB006887AD /* AppDelegate.swift in Sources */,
+				632367811C6B1682009F490B /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E4F4D81C3A5AAB006887AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E4F4E11C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E4F4E31C3A5AAB006887AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E4F4EC1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63E4F4DE1C3A5AAB006887AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E4F4C71C3A5AAB006887AD /* AMDproject */;
+			targetProxy = 63E4F4DD1C3A5AAB006887AD /* PBXContainerItemProxy */;
+		};
+		63E4F4E91C3A5AAB006887AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E4F4C71C3A5AAB006887AD /* AMDproject */;
+			targetProxy = 63E4F4E81C3A5AAB006887AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63E4F4CF1C3A5AAB006887AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E4F4D01C3A5AAB006887AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E4F4D41C3A5AAB006887AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E4F4D51C3A5AAB006887AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E4F4EE1C3A5AAB006887AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63E4F4EF1C3A5AAB006887AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E4F4F11C3A5AAB006887AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YamagutiHouseBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDproject;
+				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63E4F4F21C3A5AAB006887AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YamagutiHouseBeacon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDproject;
+				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		63E4F4F41C3A5AAB006887AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YamagutiHouseBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconTests;
+				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDproject.temp_caseinsensitive_rename.app/AMDproject.temp_caseinsensitive_rename";
+			};
+			name = Debug;
+		};
+		63E4F4F51C3A5AAB006887AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YamagutiHouseBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconTests;
+				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDproject.temp_caseinsensitive_rename.app/AMDproject.temp_caseinsensitive_rename";
+			};
+			name = Release;
+		};
+		63E4F4F71C3A5AAB006887AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YamagutiHouseBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconUITests;
+				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = YamagutiHouseBeacon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63E4F4F81C3A5AAB006887AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YamagutiHouseBeaconUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconUITests;
+				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
+				TEST_TARGET_NAME = YamagutiHouseBeacon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E4F4C31C3A5AAB006887AD /* Build configuration list for PBXProject "AMDproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E4F4EE1C3A5AAB006887AD /* Debug */,
+				63E4F4EF1C3A5AAB006887AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E4F4F01C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E4F4F11C3A5AAB006887AD /* Debug */,
+				63E4F4F21C3A5AAB006887AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E4F4F31C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E4F4F41C3A5AAB006887AD /* Debug */,
+				63E4F4F51C3A5AAB006887AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E4F4F61C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E4F4F71C3A5AAB006887AD /* Debug */,
+				63E4F4F81C3A5AAB006887AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E4F4C01C3A5AAB006887AD /* Project object */;
+}
