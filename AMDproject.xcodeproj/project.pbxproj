@@ -7,71 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6323677F1C6B119E009F490B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6323677E1C6B119E009F490B /* CoreLocation.framework */; };
-		632367811C6B1682009F490B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632367801C6B1682009F490B /* HomeViewController.swift */; };
-		6363E3241C6C72B3000257CA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6363E3231C6C72B3000257CA /* home.png */; };
-		63E4F4CC1C3A5AAB006887AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4CB1C3A5AAB006887AD /* AppDelegate.swift */; };
-		63E4F4CE1C3A5AAB006887AD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4CD1C3A5AAB006887AD /* MainViewController.swift */; };
-		63E4F4D11C3A5AAB006887AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4F4CF1C3A5AAB006887AD /* Main.storyboard */; };
-		63E4F4D31C3A5AAB006887AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E4F4D21C3A5AAB006887AD /* Assets.xcassets */; };
-		63E4F4D61C3A5AAB006887AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E4F4D41C3A5AAB006887AD /* LaunchScreen.storyboard */; };
-		63E4F4E11C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4E01C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift */; };
-		63E4F4EC1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E4F4EB1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift */; };
+		6376A03D1C8571BD00CF2B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376A03C1C8571BD00CF2B9B /* AppDelegate.swift */; };
+		6376A03F1C8571BD00CF2B9B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376A03E1C8571BD00CF2B9B /* HomeViewController.swift */; };
+		6376A0421C8571BD00CF2B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376A0401C8571BD00CF2B9B /* Main.storyboard */; };
+		6376A0441C8571BD00CF2B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6376A0431C8571BD00CF2B9B /* Assets.xcassets */; };
+		6376A0471C8571BD00CF2B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376A0451C8571BD00CF2B9B /* LaunchScreen.storyboard */; };
+		6376A0521C8571BE00CF2B9B /* AMDprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376A0511C8571BE00CF2B9B /* AMDprojectTests.swift */; };
+		6376A05D1C8571BE00CF2B9B /* AMDprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376A05C1C8571BE00CF2B9B /* AMDprojectUITests.swift */; };
+		6376A0B51C8572BD00CF2B9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6376A0B41C8572BD00CF2B9B /* CoreLocation.framework */; };
+		6376A0B71C8575F800CF2B9B /* ManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376A0B61C8575F800CF2B9B /* ManualViewController.swift */; };
+		6376A10C1C86137100CF2B9B /* ceiling.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1021C86137100CF2B9B /* ceiling.png */; };
+		6376A10D1C86137100CF2B9B /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1031C86137100CF2B9B /* door.png */; };
+		6376A10E1C86137100CF2B9B /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1041C86137100CF2B9B /* glass.png */; };
+		6376A10F1C86137100CF2B9B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1051C86137100CF2B9B /* home.png */; };
+		6376A1101C86137100CF2B9B /* karesansui.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1061C86137100CF2B9B /* karesansui.png */; };
+		6376A1111C86137100CF2B9B /* kusunoki.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1071C86137100CF2B9B /* kusunoki.png */; };
+		6376A1121C86137100CF2B9B /* ranma.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1081C86137100CF2B9B /* ranma.png */; };
+		6376A1131C86137100CF2B9B /* spikeHidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A1091C86137100CF2B9B /* spikeHidden.png */; };
+		6376A1141C86137100CF2B9B /* spikeReason.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A10A1C86137100CF2B9B /* spikeReason.png */; };
+		6376A1151C86137100CF2B9B /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A10B1C86137100CF2B9B /* water.png */; };
+		639A6AA91C8916E9007F18B5 /* MapVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A6AA81C8916E9007F18B5 /* MapVIewController.swift */; };
+		639A6AAB1C89F000007F18B5 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 639A6AAA1C89F000007F18B5 /* map.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63E4F4DD1C3A5AAB006887AD /* PBXContainerItemProxy */ = {
+		6376A04E1C8571BE00CF2B9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63E4F4C01C3A5AAB006887AD /* Project object */;
+			containerPortal = 6376A0311C8571BD00CF2B9B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63E4F4C71C3A5AAB006887AD;
-			remoteInfo = YamagutiHouseBeacon;
+			remoteGlobalIDString = 6376A0381C8571BD00CF2B9B;
+			remoteInfo = AMDproject;
 		};
-		63E4F4E81C3A5AAB006887AD /* PBXContainerItemProxy */ = {
+		6376A0591C8571BE00CF2B9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63E4F4C01C3A5AAB006887AD /* Project object */;
+			containerPortal = 6376A0311C8571BD00CF2B9B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63E4F4C71C3A5AAB006887AD;
-			remoteInfo = YamagutiHouseBeacon;
+			remoteGlobalIDString = 6376A0381C8571BD00CF2B9B;
+			remoteInfo = AMDproject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6323677E1C6B119E009F490B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		632367801C6B1682009F490B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		6363E3231C6C72B3000257CA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = ../../home.png; sourceTree = "<group>"; };
-		63E4F4C81C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMDproject.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63E4F4CB1C3A5AAB006887AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63E4F4CD1C3A5AAB006887AD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		63E4F4D01C3A5AAB006887AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63E4F4D21C3A5AAB006887AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63E4F4D51C3A5AAB006887AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		63E4F4D71C3A5AAB006887AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63E4F4DC1C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDproject.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63E4F4E01C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamagutiHouseBeaconTests.swift; sourceTree = "<group>"; };
-		63E4F4E21C3A5AAB006887AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63E4F4E71C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDproject.temp_caseinsensitive_rename.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63E4F4EB1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamagutiHouseBeaconUITests.swift; sourceTree = "<group>"; };
-		63E4F4ED1C3A5AAB006887AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6376A0391C8571BD00CF2B9B /* AMDproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMDproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6376A03C1C8571BD00CF2B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6376A03E1C8571BD00CF2B9B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6376A0411C8571BD00CF2B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6376A0431C8571BD00CF2B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6376A0461C8571BD00CF2B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6376A0481C8571BD00CF2B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6376A04D1C8571BE00CF2B9B /* AMDprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6376A0511C8571BE00CF2B9B /* AMDprojectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDprojectTests.swift; sourceTree = "<group>"; };
+		6376A0531C8571BE00CF2B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6376A0581C8571BE00CF2B9B /* AMDprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6376A05C1C8571BE00CF2B9B /* AMDprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMDprojectUITests.swift; sourceTree = "<group>"; };
+		6376A05E1C8571BE00CF2B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6376A0B41C8572BD00CF2B9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6376A0B61C8575F800CF2B9B /* ManualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualViewController.swift; sourceTree = "<group>"; };
+		6376A1021C86137100CF2B9B /* ceiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ceiling.png; sourceTree = "<group>"; };
+		6376A1031C86137100CF2B9B /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		6376A1041C86137100CF2B9B /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		6376A1051C86137100CF2B9B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		6376A1061C86137100CF2B9B /* karesansui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = karesansui.png; sourceTree = "<group>"; };
+		6376A1071C86137100CF2B9B /* kusunoki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kusunoki.png; sourceTree = "<group>"; };
+		6376A1081C86137100CF2B9B /* ranma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ranma.png; sourceTree = "<group>"; };
+		6376A1091C86137100CF2B9B /* spikeHidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spikeHidden.png; sourceTree = "<group>"; };
+		6376A10A1C86137100CF2B9B /* spikeReason.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spikeReason.png; sourceTree = "<group>"; };
+		6376A10B1C86137100CF2B9B /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		639A6AA81C8916E9007F18B5 /* MapVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVIewController.swift; sourceTree = "<group>"; };
+		639A6AAA1C89F000007F18B5 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63E4F4C51C3A5AAB006887AD /* Frameworks */ = {
+		6376A0361C8571BD00CF2B9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6323677F1C6B119E009F490B /* CoreLocation.framework in Frameworks */,
+				6376A0B51C8572BD00CF2B9B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E4F4D91C3A5AAB006887AD /* Frameworks */ = {
+		6376A04A1C8571BE00CF2B9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E4F4E41C3A5AAB006887AD /* Frameworks */ = {
+		6376A0551C8571BE00CF2B9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,146 +103,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63E4F4BF1C3A5AAB006887AD = {
+		6376A0301C8571BD00CF2B9B = {
 			isa = PBXGroup;
 			children = (
-				6323677E1C6B119E009F490B /* CoreLocation.framework */,
-				63E4F4CA1C3A5AAB006887AD /* AMDprojec */,
-				63E4F4DF1C3A5AAB006887AD /* AMDprojecTest */,
-				63E4F4EA1C3A5AAB006887AD /* AMDprojectUITests */,
-				63E4F4C91C3A5AAB006887AD /* Products */,
+				6376A0B41C8572BD00CF2B9B /* CoreLocation.framework */,
+				6376A03B1C8571BD00CF2B9B /* AMDproject */,
+				6376A0501C8571BE00CF2B9B /* AMDprojectTests */,
+				6376A05B1C8571BE00CF2B9B /* AMDprojectUITests */,
+				6376A03A1C8571BD00CF2B9B /* Products */,
+				6376A1021C86137100CF2B9B /* ceiling.png */,
+				6376A1031C86137100CF2B9B /* door.png */,
+				6376A1041C86137100CF2B9B /* glass.png */,
+				6376A1051C86137100CF2B9B /* home.png */,
+				6376A1061C86137100CF2B9B /* karesansui.png */,
+				6376A1071C86137100CF2B9B /* kusunoki.png */,
+				6376A1081C86137100CF2B9B /* ranma.png */,
+				6376A1091C86137100CF2B9B /* spikeHidden.png */,
+				639A6AAA1C89F000007F18B5 /* map.png */,
+				6376A10A1C86137100CF2B9B /* spikeReason.png */,
+				6376A10B1C86137100CF2B9B /* water.png */,
 			);
 			sourceTree = "<group>";
 		};
-		63E4F4C91C3A5AAB006887AD /* Products */ = {
+		6376A03A1C8571BD00CF2B9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63E4F4C81C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.app */,
-				63E4F4DC1C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */,
-				63E4F4E71C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */,
+				6376A0391C8571BD00CF2B9B /* AMDproject.app */,
+				6376A04D1C8571BE00CF2B9B /* AMDprojectTests.xctest */,
+				6376A0581C8571BE00CF2B9B /* AMDprojectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63E4F4CA1C3A5AAB006887AD /* AMDprojec */ = {
+		6376A03B1C8571BD00CF2B9B /* AMDproject */ = {
 			isa = PBXGroup;
 			children = (
-				63E4F4CB1C3A5AAB006887AD /* AppDelegate.swift */,
-				63E4F4CD1C3A5AAB006887AD /* MainViewController.swift */,
-				63E4F4CF1C3A5AAB006887AD /* Main.storyboard */,
-				632367801C6B1682009F490B /* HomeViewController.swift */,
-				63E4F4D21C3A5AAB006887AD /* Assets.xcassets */,
-				63E4F4D41C3A5AAB006887AD /* LaunchScreen.storyboard */,
-				63E4F4D71C3A5AAB006887AD /* Info.plist */,
-				6363E3231C6C72B3000257CA /* home.png */,
+				6376A03C1C8571BD00CF2B9B /* AppDelegate.swift */,
+				6376A03E1C8571BD00CF2B9B /* HomeViewController.swift */,
+				6376A0401C8571BD00CF2B9B /* Main.storyboard */,
+				639A6AA81C8916E9007F18B5 /* MapVIewController.swift */,
+				6376A0B61C8575F800CF2B9B /* ManualViewController.swift */,
+				6376A0431C8571BD00CF2B9B /* Assets.xcassets */,
+				6376A0451C8571BD00CF2B9B /* LaunchScreen.storyboard */,
+				6376A0481C8571BD00CF2B9B /* Info.plist */,
 			);
-			name = AMDprojec;
-			path = YamagutiHouseBeacon;
+			path = AMDproject;
 			sourceTree = "<group>";
 		};
-		63E4F4DF1C3A5AAB006887AD /* AMDprojecTest */ = {
+		6376A0501C8571BE00CF2B9B /* AMDprojectTests */ = {
 			isa = PBXGroup;
 			children = (
-				63E4F4E01C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift */,
-				63E4F4E21C3A5AAB006887AD /* Info.plist */,
+				6376A0511C8571BE00CF2B9B /* AMDprojectTests.swift */,
+				6376A0531C8571BE00CF2B9B /* Info.plist */,
 			);
-			name = AMDprojecTest;
-			path = YamagutiHouseBeaconTests;
+			path = AMDprojectTests;
 			sourceTree = "<group>";
 		};
-		63E4F4EA1C3A5AAB006887AD /* AMDprojectUITests */ = {
+		6376A05B1C8571BE00CF2B9B /* AMDprojectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				63E4F4EB1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift */,
-				63E4F4ED1C3A5AAB006887AD /* Info.plist */,
+				6376A05C1C8571BE00CF2B9B /* AMDprojectUITests.swift */,
+				6376A05E1C8571BE00CF2B9B /* Info.plist */,
 			);
-			name = AMDprojectUITests;
-			path = YamagutiHouseBeaconUITests;
+			path = AMDprojectUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63E4F4C71C3A5AAB006887AD /* AMDproject */ = {
+		6376A0381C8571BD00CF2B9B /* AMDproject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63E4F4F01C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDproject" */;
+			buildConfigurationList = 6376A0611C8571BE00CF2B9B /* Build configuration list for PBXNativeTarget "AMDproject" */;
 			buildPhases = (
-				63E4F4C41C3A5AAB006887AD /* Sources */,
-				63E4F4C51C3A5AAB006887AD /* Frameworks */,
-				63E4F4C61C3A5AAB006887AD /* Resources */,
+				6376A0351C8571BD00CF2B9B /* Sources */,
+				6376A0361C8571BD00CF2B9B /* Frameworks */,
+				6376A0371C8571BD00CF2B9B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AMDproject;
-			productName = YamagutiHouseBeacon;
-			productReference = 63E4F4C81C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.app */;
+			productName = AMDproject;
+			productReference = 6376A0391C8571BD00CF2B9B /* AMDproject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63E4F4DB1C3A5AAB006887AD /* AMDprojectTests */ = {
+		6376A04C1C8571BE00CF2B9B /* AMDprojectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63E4F4F31C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectTests" */;
+			buildConfigurationList = 6376A0641C8571BE00CF2B9B /* Build configuration list for PBXNativeTarget "AMDprojectTests" */;
 			buildPhases = (
-				63E4F4D81C3A5AAB006887AD /* Sources */,
-				63E4F4D91C3A5AAB006887AD /* Frameworks */,
-				63E4F4DA1C3A5AAB006887AD /* Resources */,
+				6376A0491C8571BE00CF2B9B /* Sources */,
+				6376A04A1C8571BE00CF2B9B /* Frameworks */,
+				6376A04B1C8571BE00CF2B9B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63E4F4DE1C3A5AAB006887AD /* PBXTargetDependency */,
+				6376A04F1C8571BE00CF2B9B /* PBXTargetDependency */,
 			);
 			name = AMDprojectTests;
-			productName = YamagutiHouseBeaconTests;
-			productReference = 63E4F4DC1C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */;
+			productName = AMDprojectTests;
+			productReference = 6376A04D1C8571BE00CF2B9B /* AMDprojectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		63E4F4E61C3A5AAB006887AD /* AMDprojectUITests */ = {
+		6376A0571C8571BE00CF2B9B /* AMDprojectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63E4F4F61C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectUITests" */;
+			buildConfigurationList = 6376A0671C8571BE00CF2B9B /* Build configuration list for PBXNativeTarget "AMDprojectUITests" */;
 			buildPhases = (
-				63E4F4E31C3A5AAB006887AD /* Sources */,
-				63E4F4E41C3A5AAB006887AD /* Frameworks */,
-				63E4F4E51C3A5AAB006887AD /* Resources */,
+				6376A0541C8571BE00CF2B9B /* Sources */,
+				6376A0551C8571BE00CF2B9B /* Frameworks */,
+				6376A0561C8571BE00CF2B9B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63E4F4E91C3A5AAB006887AD /* PBXTargetDependency */,
+				6376A05A1C8571BE00CF2B9B /* PBXTargetDependency */,
 			);
 			name = AMDprojectUITests;
-			productName = YamagutiHouseBeaconUITests;
-			productReference = 63E4F4E71C3A5AAB006887AD /* AMDproject.temp_caseinsensitive_rename.xctest */;
+			productName = AMDprojectUITests;
+			productReference = 6376A0581C8571BE00CF2B9B /* AMDprojectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63E4F4C01C3A5AAB006887AD /* Project object */ = {
+		6376A0311C8571BD00CF2B9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = nwatabou;
 				TargetAttributes = {
-					63E4F4C71C3A5AAB006887AD = {
-						CreatedOnToolsVersion = 7.2;
+					6376A0381C8571BD00CF2B9B = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = GXEN49NFED;
 					};
-					63E4F4DB1C3A5AAB006887AD = {
-						CreatedOnToolsVersion = 7.2;
+					6376A04C1C8571BE00CF2B9B = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = GXEN49NFED;
-						TestTargetID = 63E4F4C71C3A5AAB006887AD;
+						TestTargetID = 6376A0381C8571BD00CF2B9B;
 					};
-					63E4F4E61C3A5AAB006887AD = {
-						CreatedOnToolsVersion = 7.2;
+					6376A0571C8571BE00CF2B9B = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = GXEN49NFED;
-						TestTargetID = 63E4F4C71C3A5AAB006887AD;
+						TestTargetID = 6376A0381C8571BD00CF2B9B;
 					};
 				};
 			};
-			buildConfigurationList = 63E4F4C31C3A5AAB006887AD /* Build configuration list for PBXProject "AMDproject" */;
+			buildConfigurationList = 6376A0341C8571BD00CF2B9B /* Build configuration list for PBXProject "AMDproject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,38 +258,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 63E4F4BF1C3A5AAB006887AD;
-			productRefGroup = 63E4F4C91C3A5AAB006887AD /* Products */;
+			mainGroup = 6376A0301C8571BD00CF2B9B;
+			productRefGroup = 6376A03A1C8571BD00CF2B9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63E4F4C71C3A5AAB006887AD /* AMDproject */,
-				63E4F4DB1C3A5AAB006887AD /* AMDprojectTests */,
-				63E4F4E61C3A5AAB006887AD /* AMDprojectUITests */,
+				6376A0381C8571BD00CF2B9B /* AMDproject */,
+				6376A04C1C8571BE00CF2B9B /* AMDprojectTests */,
+				6376A0571C8571BE00CF2B9B /* AMDprojectUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63E4F4C61C3A5AAB006887AD /* Resources */ = {
+		6376A0371C8571BD00CF2B9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6363E3241C6C72B3000257CA /* home.png in Resources */,
-				63E4F4D61C3A5AAB006887AD /* LaunchScreen.storyboard in Resources */,
-				63E4F4D31C3A5AAB006887AD /* Assets.xcassets in Resources */,
-				63E4F4D11C3A5AAB006887AD /* Main.storyboard in Resources */,
+				6376A10E1C86137100CF2B9B /* glass.png in Resources */,
+				6376A0471C8571BD00CF2B9B /* LaunchScreen.storyboard in Resources */,
+				6376A10F1C86137100CF2B9B /* home.png in Resources */,
+				6376A10D1C86137100CF2B9B /* door.png in Resources */,
+				639A6AAB1C89F000007F18B5 /* map.png in Resources */,
+				6376A1111C86137100CF2B9B /* kusunoki.png in Resources */,
+				6376A1151C86137100CF2B9B /* water.png in Resources */,
+				6376A1131C86137100CF2B9B /* spikeHidden.png in Resources */,
+				6376A1141C86137100CF2B9B /* spikeReason.png in Resources */,
+				6376A10C1C86137100CF2B9B /* ceiling.png in Resources */,
+				6376A0441C8571BD00CF2B9B /* Assets.xcassets in Resources */,
+				6376A0421C8571BD00CF2B9B /* Main.storyboard in Resources */,
+				6376A1101C86137100CF2B9B /* karesansui.png in Resources */,
+				6376A1121C86137100CF2B9B /* ranma.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E4F4DA1C3A5AAB006887AD /* Resources */ = {
+		6376A04B1C8571BE00CF2B9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E4F4E51C3A5AAB006887AD /* Resources */ = {
+		6376A0561C8571BE00CF2B9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,60 +309,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63E4F4C41C3A5AAB006887AD /* Sources */ = {
+		6376A0351C8571BD00CF2B9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E4F4CE1C3A5AAB006887AD /* MainViewController.swift in Sources */,
-				63E4F4CC1C3A5AAB006887AD /* AppDelegate.swift in Sources */,
-				632367811C6B1682009F490B /* HomeViewController.swift in Sources */,
+				6376A03F1C8571BD00CF2B9B /* HomeViewController.swift in Sources */,
+				6376A0B71C8575F800CF2B9B /* ManualViewController.swift in Sources */,
+				6376A03D1C8571BD00CF2B9B /* AppDelegate.swift in Sources */,
+				639A6AA91C8916E9007F18B5 /* MapVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E4F4D81C3A5AAB006887AD /* Sources */ = {
+		6376A0491C8571BE00CF2B9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E4F4E11C3A5AAB006887AD /* YamagutiHouseBeaconTests.swift in Sources */,
+				6376A0521C8571BE00CF2B9B /* AMDprojectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63E4F4E31C3A5AAB006887AD /* Sources */ = {
+		6376A0541C8571BE00CF2B9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E4F4EC1C3A5AAB006887AD /* YamagutiHouseBeaconUITests.swift in Sources */,
+				6376A05D1C8571BE00CF2B9B /* AMDprojectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63E4F4DE1C3A5AAB006887AD /* PBXTargetDependency */ = {
+		6376A04F1C8571BE00CF2B9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63E4F4C71C3A5AAB006887AD /* AMDproject */;
-			targetProxy = 63E4F4DD1C3A5AAB006887AD /* PBXContainerItemProxy */;
+			target = 6376A0381C8571BD00CF2B9B /* AMDproject */;
+			targetProxy = 6376A04E1C8571BE00CF2B9B /* PBXContainerItemProxy */;
 		};
-		63E4F4E91C3A5AAB006887AD /* PBXTargetDependency */ = {
+		6376A05A1C8571BE00CF2B9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63E4F4C71C3A5AAB006887AD /* AMDproject */;
-			targetProxy = 63E4F4E81C3A5AAB006887AD /* PBXContainerItemProxy */;
+			target = 6376A0381C8571BD00CF2B9B /* AMDproject */;
+			targetProxy = 6376A0591C8571BE00CF2B9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		63E4F4CF1C3A5AAB006887AD /* Main.storyboard */ = {
+		6376A0401C8571BD00CF2B9B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63E4F4D01C3A5AAB006887AD /* Base */,
+				6376A0411C8571BD00CF2B9B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		63E4F4D41C3A5AAB006887AD /* LaunchScreen.storyboard */ = {
+		6376A0451C8571BD00CF2B9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63E4F4D51C3A5AAB006887AD /* Base */,
+				6376A0461C8571BD00CF2B9B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +371,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		63E4F4EE1C3A5AAB006887AD /* Debug */ = {
+		6376A05F1C8571BE00CF2B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -374,7 +415,7 @@
 			};
 			name = Debug;
 		};
-		63E4F4EF1C3A5AAB006887AD /* Release */ = {
+		6376A0601C8571BE00CF2B9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,74 +452,76 @@
 			};
 			name = Release;
 		};
-		63E4F4F11C3A5AAB006887AD /* Debug */ = {
+		6376A0621C8571BE00CF2B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YamagutiHouseBeacon/Info.plist;
+				INFOPLIST_FILE = AMDproject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDproject;
-				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
-				TARGETED_DEVICE_FAMILY = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
-		63E4F4F21C3A5AAB006887AD /* Release */ = {
+		6376A0631C8571BE00CF2B9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YamagutiHouseBeacon/Info.plist;
+				INFOPLIST_FILE = AMDproject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDproject;
-				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
-				TARGETED_DEVICE_FAMILY = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
-		63E4F4F41C3A5AAB006887AD /* Debug */ = {
+		6376A0651C8571BE00CF2B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = YamagutiHouseBeaconTests/Info.plist;
+				INFOPLIST_FILE = AMDprojectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconTests;
-				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDproject.temp_caseinsensitive_rename.app/AMDproject.temp_caseinsensitive_rename";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDproject.app/AMDproject";
 			};
 			name = Debug;
 		};
-		63E4F4F51C3A5AAB006887AD /* Release */ = {
+		6376A0661C8571BE00CF2B9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = YamagutiHouseBeaconTests/Info.plist;
+				INFOPLIST_FILE = AMDprojectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconTests;
-				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDproject.temp_caseinsensitive_rename.app/AMDproject.temp_caseinsensitive_rename";
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDproject.app/AMDproject";
 			};
 			name = Release;
 		};
-		63E4F4F71C3A5AAB006887AD /* Debug */ = {
+		6376A0681C8571BE00CF2B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = YamagutiHouseBeaconUITests/Info.plist;
+				INFOPLIST_FILE = AMDprojectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconUITests;
-				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
-				TEST_TARGET_NAME = YamagutiHouseBeacon;
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMDproject;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		63E4F4F81C3A5AAB006887AD /* Release */ = {
+		6376A0691C8571BE00CF2B9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = YamagutiHouseBeaconUITests/Info.plist;
+				INFOPLIST_FILE = AMDprojectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.YamagutiHouseBeaconUITests;
-				PRODUCT_NAME = AMDproject.temp_caseinsensitive_rename;
-				TEST_TARGET_NAME = YamagutiHouseBeacon;
+				PRODUCT_BUNDLE_IDENTIFIER = nwatabou.AMDprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMDproject;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -486,43 +529,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63E4F4C31C3A5AAB006887AD /* Build configuration list for PBXProject "AMDproject" */ = {
+		6376A0341C8571BD00CF2B9B /* Build configuration list for PBXProject "AMDproject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63E4F4EE1C3A5AAB006887AD /* Debug */,
-				63E4F4EF1C3A5AAB006887AD /* Release */,
+				6376A05F1C8571BE00CF2B9B /* Debug */,
+				6376A0601C8571BE00CF2B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63E4F4F01C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDproject" */ = {
+		6376A0611C8571BE00CF2B9B /* Build configuration list for PBXNativeTarget "AMDproject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63E4F4F11C3A5AAB006887AD /* Debug */,
-				63E4F4F21C3A5AAB006887AD /* Release */,
+				6376A0621C8571BE00CF2B9B /* Debug */,
+				6376A0631C8571BE00CF2B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63E4F4F31C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectTests" */ = {
+		6376A0641C8571BE00CF2B9B /* Build configuration list for PBXNativeTarget "AMDprojectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63E4F4F41C3A5AAB006887AD /* Debug */,
-				63E4F4F51C3A5AAB006887AD /* Release */,
+				6376A0651C8571BE00CF2B9B /* Debug */,
+				6376A0661C8571BE00CF2B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63E4F4F61C3A5AAB006887AD /* Build configuration list for PBXNativeTarget "AMDprojectUITests" */ = {
+		6376A0671C8571BE00CF2B9B /* Build configuration list for PBXNativeTarget "AMDprojectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63E4F4F71C3A5AAB006887AD /* Debug */,
-				63E4F4F81C3A5AAB006887AD /* Release */,
+				6376A0681C8571BE00CF2B9B /* Debug */,
+				6376A0691C8571BE00CF2B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63E4F4C01C3A5AAB006887AD /* Project object */;
+	rootObject = 6376A0311C8571BD00CF2B9B /* Project object */;
 }

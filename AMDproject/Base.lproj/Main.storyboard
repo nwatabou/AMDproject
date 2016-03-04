@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="HomeViewController" customModule="AMDproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Di-tt-AjT">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJj-oj-9IP">
+                                <rect key="frame" x="372" y="647" width="281" height="54"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                <state key="normal" title="スタート">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hn0-PD-LGW" kind="presentation" id="Huh-HR-9Iz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Di-tt-AjT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0Eg-2J-cf7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QJj-oj-9IP" secondAttribute="bottom" constant="67" id="6VK-3D-b0g"/>
+                            <constraint firstItem="7Di-tt-AjT" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="g3E-aV-ouI"/>
+                            <constraint firstItem="7Di-tt-AjT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hl7-ia-XJG"/>
+                            <constraint firstItem="7Di-tt-AjT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="o72-Bb-hCP"/>
+                            <constraint firstItem="QJj-oj-9IP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t9p-nc-fWq"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="imageView" destination="7Di-tt-AjT" id="wxE-8U-DrD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="400"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="xcC-uV-XBo">
+            <objects>
+                <viewController id="hn0-PD-LGW" customClass="MapViewController" customModule="AMDproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3u5-2a-0Gv"/>
+                        <viewControllerLayoutGuide type="bottom" id="QIT-2q-xzi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GQu-ed-P6h">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2tp-aG-nNc">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3l-6B-LRP">
+                                <rect key="frame" x="762" y="651" width="242" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal" title="見に行く">
+                                    <color key="titleShadowColor" red="0.070016571969697017" green="0.070016571969697017" blue="0.070016571969697017" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FNs-T8-Wxm" kind="presentation" id="Ef8-Pp-lqF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="P3l-6B-LRP" firstAttribute="trailing" secondItem="GQu-ed-P6h" secondAttribute="trailingMargin" id="CTF-p4-yls"/>
+                            <constraint firstItem="QIT-2q-xzi" firstAttribute="top" secondItem="P3l-6B-LRP" secondAttribute="bottom" constant="20" id="QdG-rE-ak6"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="imageVIew" destination="2tp-aG-nNc" id="Poy-vN-uuU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ALz-fQ-EDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1771" y="561"/>
+        </scene>
+        <!--Manual View Controller-->
+        <scene sceneID="Bw7-T4-ZKc">
+            <objects>
+                <viewController storyboardIdentifier="manual" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FNs-T8-Wxm" customClass="ManualViewController" customModule="AMDproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gdx-r6-1e7"/>
+                        <viewControllerLayoutGuide type="bottom" id="I6i-b5-h5h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PMu-R3-cuT">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pcz-bb-Fce">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08n-Ml-Qsc">
+                                <rect key="frame" x="808" y="713" width="196" height="47"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Map画面へ"/>
+                                <connections>
+                                    <segue destination="hn0-PD-LGW" kind="presentation" id="hUl-k8-hAs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pcz-bb-Fce" firstAttribute="leading" secondItem="PMu-R3-cuT" secondAttribute="leading" id="Kzv-8R-9vw"/>
+                            <constraint firstItem="Pcz-bb-Fce" firstAttribute="centerX" secondItem="PMu-R3-cuT" secondAttribute="centerX" id="PpJ-Em-o2p"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="08n-Ml-Qsc" secondAttribute="trailing" id="R5W-Gk-89x"/>
+                            <constraint firstItem="I6i-b5-h5h" firstAttribute="top" secondItem="08n-Ml-Qsc" secondAttribute="bottom" constant="8" id="Vns-yj-vdo"/>
+                            <constraint firstItem="Pcz-bb-Fce" firstAttribute="bottom" secondItem="I6i-b5-h5h" secondAttribute="top" id="hIO-VC-pVz"/>
+                            <constraint firstItem="Pcz-bb-Fce" firstAttribute="centerY" secondItem="PMu-R3-cuT" secondAttribute="centerY" id="j58-dy-5WR"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="mainImageVIew" destination="Pcz-bb-Fce" id="ZbL-Oh-MXt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0z-W0-ado" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="1291"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hUl-k8-hAs"/>
+    </inferredMetricsTieBreakers>
+</document>

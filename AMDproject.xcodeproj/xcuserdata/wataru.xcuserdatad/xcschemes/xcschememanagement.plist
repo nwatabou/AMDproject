@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>YamagutiHouseBeacon.xcscheme</key>
+		<key>AMDproject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>63E4F4C71C3A5AAB006887AD</key>
+		<key>6376A0381C8571BD00CF2B9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>63E4F4DB1C3A5AAB006887AD</key>
+		<key>6376A04C1C8571BE00CF2B9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>63E4F4E61C3A5AAB006887AD</key>
+		<key>6376A0571C8571BE00CF2B9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
