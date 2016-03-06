@@ -30,7 +30,7 @@ class ManualViewController: UIViewController, CLLocationManagerDelegate {
     
     let extention = ".png"
     
-    let mapImg = UIImage(named: "map.png")
+    let mapImg = UIImage(named: "walking.png") 
     
     override func viewDidLoad() {
         super.viewDidLoad()

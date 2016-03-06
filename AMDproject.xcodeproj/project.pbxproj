@@ -28,6 +28,7 @@
 		6376A1151C86137100CF2B9B /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376A10B1C86137100CF2B9B /* water.png */; };
 		639A6AA91C8916E9007F18B5 /* MapVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639A6AA81C8916E9007F18B5 /* MapVIewController.swift */; };
 		639A6AAB1C89F000007F18B5 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 639A6AAA1C89F000007F18B5 /* map.png */; };
+		639A6AAD1C8A9F9C007F18B5 /* walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 639A6AAC1C8A9F9C007F18B5 /* walking.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		6376A10B1C86137100CF2B9B /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
 		639A6AA81C8916E9007F18B5 /* MapVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVIewController.swift; sourceTree = "<group>"; };
 		639A6AAA1C89F000007F18B5 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		639A6AAC1C8A9F9C007F18B5 /* walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walking.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				6376A0501C8571BE00CF2B9B /* AMDprojectTests */,
 				6376A05B1C8571BE00CF2B9B /* AMDprojectUITests */,
 				6376A03A1C8571BD00CF2B9B /* Products */,
+				639A6AAC1C8A9F9C007F18B5 /* walking.png */,
 				6376A1021C86137100CF2B9B /* ceiling.png */,
 				6376A1031C86137100CF2B9B /* door.png */,
 				6376A1041C86137100CF2B9B /* glass.png */,
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6376A10E1C86137100CF2B9B /* glass.png in Resources */,
+				639A6AAD1C8A9F9C007F18B5 /* walking.png in Resources */,
 				6376A0471C8571BD00CF2B9B /* LaunchScreen.storyboard in Resources */,
 				6376A10F1C86137100CF2B9B /* home.png in Resources */,
 				6376A10D1C86137100CF2B9B /* door.png in Resources */,
